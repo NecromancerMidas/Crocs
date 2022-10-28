@@ -31,7 +31,8 @@ function button1(answer1) {
     }
  else
         pointcounter--;
-        points.innerHTML = pointcounter;
+    points.innerHTML = pointcounter;
+    reset();
     console.log(button1)
 }
 function test() {
